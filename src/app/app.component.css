@@ -1,0 +1,56 @@
+#title{
+    color: gray;
+    font-size: 2em;
+    text-align: center;
+}
+
+#center_header{
+    font-size: 0.5em;
+    margin-top: 10%;
+}
+
+#main_nav{
+    /*text-align: center;*/
+    margin-left: 42.8%
+}
+
+#main_nav a{
+    background-color: #DD0031;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+#main_nav a:hover {
+    background-color: #C3002F;
+    color: white;
+}
+
+#login a{
+    text-align: right;
+    margin-right: 2%;
+    background-color: #DD0031;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+#login a:hover{
+    background-color: #C3002F;
+    color: white;
+}
+
+#app_logo{
+    position: relative;
+    margin-left: 70%;
+}
+
+#main_logo{
+    position: relative;
+}
+
+.col-lg-6{
+    border: black thin;
+}

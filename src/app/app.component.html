@@ -1,0 +1,39 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4" style="border: none">
+      <img id="main_logo" width="100" alt="Angular Logo" src="assets/angular_logo.svg">
+    </div>
+    <div class="col-lg-4" style="border: none; text-align:center">
+      <p id="center_header">
+        This is a single page web application built with Angular 2. Purpose of this application is yet to be decided.
+      </p>
+    </div>
+    <div class="col-lg-3" style="border: none">
+      <a href="/"><img id="app_logo" width="200" alt="My logo" src="assets/logo-t.png"></a>
+    </div>
+  </div>
+</div>
+
+<h1 id="title">
+  {{ title }}!
+</h1>
+
+<div class="container-fluid" style="border: none">
+  <div class="row">
+    <div class="col-lg-11" style="border: none">
+      <nav id="main_nav">
+        <a routerLink="/content-menu-1">TO-DOs</a>
+        <a routerLink="/content-menu-2">Menu 2</a>
+        <a routerLink="/content-menu-3">Menu 3</a>
+        <a routerLink="/content-menu-4">Menu 4</a>
+      </nav>
+    </div>
+    <div class="col-lg-1" style="border: none">
+      <nav id="login">
+        <a roterLink="">Login</a>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
